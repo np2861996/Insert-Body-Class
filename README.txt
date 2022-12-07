@@ -1,6 +1,6 @@
-=== Wing Forms Plugin for WordPress ===
+=== Insert Body Class Plugin for WordPress ===
 Contributors: Nikhil Patel
-Tags: wing, form, forms, wing forms, wing form, wing, email 
+Tags: inset, class, multiple, calsses, add class, add body class, body class plugin,plugin,body 
 Requires at least: 5.0
 Tested up to: 6.1
 Stable tag: 1.0.0
@@ -8,37 +8,37 @@ Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Allow your customers to add wing forms, just easily
+Allow your customers to add Body Class in any page or post, just easily
 
 == Description ==
 
-Just install Plugin and enjoy feature of Wing Forms.
+Just install Plugin and enjoy feature of Insert Body Class.
 
 This plugin display forms with simple shortcode.
 
-1). Create a page like wing or any other.
+1). Create a page like About or any other.
 
-2). Put shortcode wherever you want.
+2). Add class in the right side of optioins list.
 
-3). Add shortcode parameters as you want.
+3). Save And it's Done. Simple Right!!
 
 == Installation ==
-1. Upload the entire `wing-forms` folder to the `/wp-content/plugins/` directory.
+1. Upload the entire `insert-body-class` folder to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the **Plugins** screen (**Plugins > Installed Plugins**).
 
 == Frequently Asked Questions ==
 
 = How to use plugin? =
 
-You just have to install. Plugin will take care of all the required things. You just have to create form and add shortcode.
+You just have to install plugin and plugin will take care of all things.
 
-= How to add form in page? =
+= How to add body class in page or post? =
 
-You just have to addshortcode in page. e.g.[wing-forms id="16" title="form 1"] 
+Add class in the right side of options list in the page or post.
 
 == Screenshots ==
 
-1. This screenshot shows the Wing forms.
+1. This screenshot shows Where to add class.
 
 == Changelog ==
 
