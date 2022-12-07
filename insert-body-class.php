@@ -4,6 +4,7 @@
  * Plugin URI: https://github.com/np2861996/Insert-Body-Class
  * Description: Quick, easy, advance plugin for add body class. 
  * Author: BeyondN
+ * Author URI: https://beyondn.net/
  * Text Domain: Insert_Body_Class
  * Version: 1.0.0
  *
