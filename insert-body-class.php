@@ -27,14 +27,21 @@ function add_custom_body_class_post_meta_boxes() {
 add_action( "admin_init", "add_custom_body_class_post_meta_boxes" );
 
 function save_custom_body_class_post_meta_boxes(){
-    global $post;
-    if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) {
-        return;
-    }
-    if ( get_post_status( $post->ID ) === 'auto-draft' ) {
-        return;
-    }
-    update_post_meta( $post->ID, "add_custom_body_class", sanitize_text_field( $_POST[ "add_custom_body_class" ] ) );
+	global $post;
+	if($post)
+	{
+		if(defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE){
+			return;
+		}
+		if(get_post_status( $post->ID ) === 'auto-draft'){
+			return;
+		}
+		update_post_meta( $post->ID, "add_custom_body_class", sanitize_text_field( $_POST[ "add_custom_body_class" ] ) );
+	}
+	else
+	{
+		return;
+	}
 }
 add_action( 'save_post', 'save_custom_body_class_post_meta_boxes' );
 
@@ -56,3 +63,4 @@ function add_custom_field_body_class( $classes ) {
 	// return the $classes array
 	return $classes;
 }
+
