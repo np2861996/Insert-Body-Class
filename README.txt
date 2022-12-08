@@ -39,6 +39,7 @@ Add class in the right side of options list in the page or post.
 == Screenshots ==
 
 1. This screenshot shows Where to add class.
+2. This screenshot shows Where class will show.
 
 == Changelog ==
 
