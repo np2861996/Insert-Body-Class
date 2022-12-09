@@ -49,7 +49,7 @@ function add_custom_body_class_box(){
 	global $post;
    	$get_class_value = get_post_custom( $post->ID );
 	$add_custom_body_class = !empty($get_class_value[ "add_custom_body_class" ][ 0 ]) ? $get_class_value[ "add_custom_body_class" ][ 0 ] : ''; ?>
-    <input type="text" id="add_custom_body_class" name="add_custom_body_class" value="<?php echo $add_custom_body_class; ?>">
+    <input type="text" id="add_custom_body_class" name="add_custom_body_class" value="<?php echo esc_html($add_custom_body_class); ?>">
     <?php    
 }
 
